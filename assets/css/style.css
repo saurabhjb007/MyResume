@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@400;500;600&family=REM&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1250px;
+  min-height: 1000px;
+  margin: 10px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 33% 67%;
+  border: 1px solid black;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.container .leftSide {
+  position: relative;
+  background-color: rgb(59 34 116);
+  padding: 40px;
+}
+
+.profileText {
+  position: relative;
+  display: flex;
+  letter-spacing: 2px;
+  align-items: center;
+  padding-bottom: 20px;
+  flex-direction: column;
+  border-bottom: 2px solid white;
+}
+.profileText .imageBox {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.profileText .imageBox img {
+  width: 150%;
+  height: 110%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  margin-left: -43px;
+}
+.profileText h2 {
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 2rem;
+}
+.profileText h2 span {
+  font-size: 1.5rem;
+  font-weight: 250;
+}
+
+.contactInfo {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+.title {
+  color: white;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contactInfo ul li {
+  position: relative;
+  list-style-type: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  color: aqua;
+  font-size: 18px;
+}
+.contactInfo ul li span {
+  color: white;
+  font-weight: 300;
+}
+.contactInfo ul li .text a {
+  text-decoration: none;
+  color: aqua;
+}
+.contactInfo ul li .text a:hover {
+  color: rgb(40, 120, 225);
+}
+
+.skills {
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  border-bottom: 2px solid white;
+}
+.skills ul li {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.skills ul li .text {
+  color: white;
+  font-weight: 300;
+}
+.skills .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(73, 70, 70);
+  display: block;
+  margin-top: 5px;
+}
+.skills .percent div {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.softSkills {
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  border-bottom: 2px solid white;
+}
+
+.softSkills table tr td {
+  color: white;
+  font-weight: 300;
+  padding-right: 25px;
+}
+
+.language {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.language ul li {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.language ul li .text {
+  color: white;
+  font-weight: 300;
+}
+.language .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(73, 70, 70);
+  display: block;
+  margin-top: 5px;
+}
+.language .percent div {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.container .rightSide {
+  position: relative;
+  background-color: white(44, 5, 107);
+  padding: 40px;
+}
+
+.container .rightSide .title2 {
+  color: rgb(59 34 116);
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.rightSide .about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  color: #333;
+  font-weight: 500;
+}
+
+.educationInfo {
+  border-bottom: 2px solid black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.educationInfo ul li {
+  list-style-type: none;
+  margin-bottom: 7px;
+}
+.educationInfo ul li span {
+  color: rgb(60, 11, 110);
+  padding-right: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  float: right;
+}
+.educationInfo ul li h5 {
+  color: #333;
+  font-weight: 500;
+}
+.certificates {
+  border-bottom: 2px solid black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.certificates ul li {
+  margin-left: 24px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 600;
+}
+
+.projects {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.projects .box {
+  padding-bottom: 15px;
+  border-bottom: 1px double gray;
+}
+.projects .ptitle {
+  margin-top: 20px;
+  color: rgb(60, 11, 110);
+}
+.projects span {
+  float: right;
+  padding-right: 15px;
+  font-size: 18px;
+}
+.projects span i {
+  padding-left: 7px;
+  width: 30px;
+}
+.projects span a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 300;
+}
+.projects span a:hover {
+  color: red;
+}
+.projects ul li {
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 28px;
+  
+}
+
+.ptitle {
+  margin-left: 24px;
+  color: #333;
+}
+
+.interest {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.interest ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.interest ul li {
+  list-style-type: none;
+  margin-bottom: 7px;
+  font-weight: 500;
+  color: #333;
+}
+.interest ul li i {
+  color: rgb(60, 11, 110);
+  font-size: 18px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 630px) {
+  .educationInfo ul li span {
+    display: flex;
+    flex-direction: column;
+    float: none;
+  }
+  .projects span {
+    display: flex;
+    flex-direction: column;
+    float: none;
+  }
+  .interest ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
