@@ -241,6 +241,7 @@ p {
   border-bottom: 2px solid black;
 }
 .projects .box {
+  margin-top: 20px;
   padding-bottom: 15px;
   border-bottom: 1px double gray;
 }
